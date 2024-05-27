@@ -1,0 +1,423 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #24282b;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #007bff;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+.colorMul {
+    color: #007bff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-image: url(../assets/images/cabecera.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.suscribete {
+    background-color: #24282b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+   
+}
+
+.suscribete form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.suscribete label {
+    display: none; /* Ocultamos el label ya que no es necesario en este diseño */
+}
+
+.suscribete input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.suscribete button[type="submit"] {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.servicios {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.servicios h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.servicio {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.servicio img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.servicio h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.servicio p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #24282b;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #007bff;
+}
+
+.imagen-cabecera-contenedor {
+    position: relative;
+    width: 100vw;
+}
+
+.imagen-cabecera {
+    width: 100%;
+    height: auto;
+}
+
+.texto-imagen{
+    position: absolute; /* Permite la colocación precisa dentro del contenedor */
+    top: 50%; /* Posiciona el borde superior al 50% del contenedor */
+    left: 50%; /* Posiciona el borde izquierdo al 50% del contenedor */
+    transform: translate(-50%, -50%); /* Mueve el elemento hacia atrás en un 50% de su ancho y alto */
+    text-align: center;
+}
+.texto-imagen h1{
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+}
+.texto-imagen p{
+    color: #fff;
+    margin-top: 30px;
+}
+/* INDEX.FIN IMAGEN CABECERA CON TEXTO */
+
+
+/* INDEX.INICIO IMAGENES TRILOGIA */
+.trilogy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+}
+p{
+    margin: 0;
+}
+.html,
+.css,
+.diseño-grafico{
+    padding: 35px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.html img,
+.css img,
+.diseño-grafico img{
+    width: 120px;
+}
+.html{
+    margin-right: -25px;
+}
+.diseño-grafico{
+    margin-left: -25px;
+}
+/* INDEX.FIN IMAGENES TRILOGIA */
+
+
+
+/* NOSOTROS.INICIO SUBSCRIBE */
+.subscribe-NOSOTROS{
+    margin-top: 0px;
+    background-color: #333333;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+/* NOSOTROS.FIN SUBSCRIBE */
+
+
+/* NOSOTROS.INICIO CONTENIDO PPAL */
+
+/* div padre: */
+.nosotros-content-padre{
+display: flex;
+flex-direction: row;
+width: 100vw;
+}
+
+/* div 1 dentro del principal: */
+.div-1{
+    width: 65vw;
+    padding: 20px 80px 60px 150px;
+    background-color: #fff;
+}
+.nosotros-text-1{
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.nosotros-text-2{
+    background-color: #35424A;
+    padding: 20px;
+    margin: 20px 0;
+}
+.nosotros-text-2 p{
+    color: #fff;
+}
+
+.imagen-891-contenedor{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.imagen-891-contenedor img{
+    width: 100%
+}
+.div-2{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    padding: 10px 30px;
+    background-color: #ffffff;
+}
+.que-hacemos{
+    margin-top: 40px;
+    background-color: #35424A;
+    width: 75%;
+    padding: 30px;
+    padding-left: 15px;
+    border-radius: 2px;
+}
+.que-hacemos h2{
+    color: #fff;
+    margin-top: 0;
+}
+.que-hacemos p{
+    color: #fff;
+}
+.servicios-content-padre{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.div-1-textos{
+    width: 65vw;
+    padding: 40px 50px 80px 80px;
+    background-color: #fff;
+}
+.div-1-textos h2{
+    margin-left: 5px;
+}
+.div-1-texto-1{
+    background-color: #E6E6E6;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #CCCC;
+    border-radius: 2px;
+}
+.div-1-texto-2{
+    background-color: #E6E6E6;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #CCCC;
+    border-radius: 2px;
+}
+.div-1-texto-3{
+    background-color: #E6E6E6;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #CCCC;
+    border-radius: 2px;
+}
+.contacto-content-padre{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: #fff;
+}
+
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    text-align: left;
+    padding: 0px 60px 0px 180px;
+}
+
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input{
+    background-color: #cccccc1c;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+textarea{
+    height: 120px;
+}
+
+.contact-form button {
+    background-color: #1293D4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0a7bbd;
+}
+
+
+/* imagen mapa:  */
+.mapa-container{
+    padding-top: 20px;
+}
+.mapa-container img{
+    width: 80%;
+    padding-bottom: 200px;
+}
+
+
+
+/* CAMBIANDO EL COLOR DE LOS BOTONES HEADER */
+
+/* SERVICIOS:  */
+.inicio-servicios{
+    color: #fff;
+}
+.nosotros-servicios{
+    color: #fff;
+}
+.servicios-servicios{
+    color: #1293D4;
+}
+.contacto-servicios{
+    color: #fff;
+}
+
+/* NOSOTROS:  */
+.inicio-nosotros{
+    color: #fff;
+}
+.nosotros-nosotros{
+    color: #1293D4;
+}
+.servicios-nosotros{
+    color: #fff;
+}
+.contacto-nosotros{
+    color: #fff;
+}
+
+/* CONTACTO:  */
+.inicio-contacto{
+    color: #fff;
+}
+.nosotros-contacto{
+    color: #fff;
+}
+.servicios-contacto{
+    color: #fff;
+}
+.contacto-contacto{
+    color: #1293D4;
+}
+
+[type="submit"] {
+    background-color: #ff5722;
+}
